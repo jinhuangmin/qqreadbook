@@ -1,0 +1,49 @@
+/* 测试样式*/
+#header,#main,#footer{
+  border:1px solid #000;
+}
+/*通用样式*/
+body{
+  font: 12px/1.8 "宋体",Arial,"微软雅黑";
+  color:#666;
+  margin:0;
+  padding:0;
+}
+ul,p,h1,h2,h3,h4,h5,h6,dl,dd{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+input{border:0;}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+img{vertical-align:bottom;}
+a{
+  color:#666;
+  text-decoration:none;
+}
+a:hover{
+  color:#0773C0;
+  text-decoration:none;
+}
+.header,#main,#footer{
+  width:1200px;
+  margin:0 auto;
+}
+/*头部样式*/
+#top{
+  height:108px;
+  border-bottom:1px solid #dfdfdf;
+}
+.header{
+  margin-top:20px;
+}
+.login{
+  height:80px;
+  background:url(../images/qqread.jpg)no-repeat;
+}
+.login-area-wrap{
+  margin-top:100px;
+
+}
